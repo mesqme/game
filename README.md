@@ -1,5 +1,5 @@
 # BARBARIUM
-## arcade game
+## arcade game https://barbarium.herokuapp.com/
 DO NOT FORGET TO UNZIP ARCHIVE BEFORE USING!
 
 ## Menu
