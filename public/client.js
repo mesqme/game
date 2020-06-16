@@ -282,11 +282,10 @@ function endWell() { // winning
     let body  = document.querySelector('body');
 
     let form = document.createElement('form');
-    form.style.position = "absolute";
-    form.style.top = "60%"; 
-    form.style.left = "42%"; 
-    form.style.transform = "translateX(-50%)";
     form.setAttribute('class', 'form');
+
+    let top3 = document.createElement('top3');
+    top3.setAttribute('class', 'top3');
 
     let newBtn = document.createElement('button');
     newBtn.textContent = "Save";
@@ -298,14 +297,12 @@ function endWell() { // winning
     newInput.required = true;
 
     let allBtn = document.createElement('button');
-    allBtn.style.position = "absolute";
-    allBtn.style.top = "65%";
-    allBtn.style.left = "42%"; 
-    allBtn.style.transform = "translateX(-50%)";
     allBtn.textContent = "Top 3";
 
-    body.appendChild(allBtn);
+
+    body.appendChild(top3);
     body.appendChild(form);
+    top3.appendChild(allBtn);
     form.appendChild(newInput);
     form.appendChild(newBtn);
 
