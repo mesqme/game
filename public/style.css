@@ -5,3 +5,15 @@ html, body {
 canvas {
   display: block;
 }
+
+.form {
+  position: absolute;
+  top: 650px;
+  left: 395px;
+}
+
+.top3 {
+  position: absolute;
+  top: 690px;
+  left: 470px;
+}
